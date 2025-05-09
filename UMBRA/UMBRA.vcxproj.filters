@@ -16,11 +16,29 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="UMBRA\Header Files\Actors">
+      <UniqueIdentifier>{b4c47766-be0e-4c7e-9be6-f8d7c450007e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UMBRA\Header Files\Levels">
+      <UniqueIdentifier>{147d91c4-97ac-4862-9953-76aa462b5e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UMBRA\Source Files\Actors">
+      <UniqueIdentifier>{fc16d501-e26a-4131-b84e-62ad821d366c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UMBRA\Source Files\Levels">
+      <UniqueIdentifier>{4b18b8ef-e44e-4f59-b064-2576476353e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{5c667470-3d41-4e3b-b0aa-0fb3c1339a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Header Files">
+      <UniqueIdentifier>{bb88eec3-0491-4b27-9394-b098b886c7eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Source Files">
+      <UniqueIdentifier>{44a4bfbc-adcb-4c39-bb33-f4ad1363fb52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>UMBRA\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="UMBRA\Application.cpp">
       <Filter>UMBRA\Source Files</Filter>
     </ClCompile>
@@ -31,19 +49,22 @@
       <Filter>UMBRA\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="UMBRA\Actors\Actor.cpp">
-      <Filter>UMBRA\Source Files</Filter>
+      <Filter>UMBRA\Source Files\Actors</Filter>
     </ClCompile>
     <ClCompile Include="UMBRA\Actors\ActorTransform.cpp">
-      <Filter>UMBRA\Source Files</Filter>
+      <Filter>UMBRA\Source Files\Actors</Filter>
     </ClCompile>
     <ClCompile Include="UMBRA\Actors\ActorWorld.cpp">
-      <Filter>UMBRA\Source Files</Filter>
+      <Filter>UMBRA\Source Files\Levels</Filter>
     </ClCompile>
     <ClCompile Include="UMBRA\Levels\Level.cpp">
-      <Filter>UMBRA\Source Files</Filter>
+      <Filter>UMBRA\Source Files\Levels</Filter>
     </ClCompile>
     <ClCompile Include="UMBRA\Levels\LevelManager.cpp">
-      <Filter>UMBRA\Source Files</Filter>
+      <Filter>UMBRA\Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -57,19 +78,19 @@
       <Filter>UMBRA\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="UMBRA\Actors\Actor.h">
-      <Filter>UMBRA\Header Files</Filter>
+      <Filter>UMBRA\Header Files\Actors</Filter>
     </ClInclude>
     <ClInclude Include="UMBRA\Actors\ActorTransform.h">
-      <Filter>UMBRA\Header Files</Filter>
+      <Filter>UMBRA\Header Files\Actors</Filter>
     </ClInclude>
     <ClInclude Include="UMBRA\Actors\ActorWorld.h">
-      <Filter>UMBRA\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="UMBRA\Levels\Level.h">
-      <Filter>UMBRA\Header Files</Filter>
+      <Filter>UMBRA\Header Files\Levels</Filter>
     </ClInclude>
     <ClInclude Include="UMBRA\Levels\LevelManager.h">
-      <Filter>UMBRA\Header Files</Filter>
+      <Filter>UMBRA\Header Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="UMBRA\Levels\Level.h">
+      <Filter>UMBRA\Header Files\Levels</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
