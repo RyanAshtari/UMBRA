@@ -160,6 +160,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="UMBRA\Actors\Actor.cpp" />
+    <ClCompile Include="UMBRA\Actors\ActorTransform.cpp" />
+    <ClCompile Include="UMBRA\Actors\ActorWorld.cpp" />
+    <ClCompile Include="UMBRA\Application.cpp" />
+    <ClCompile Include="UMBRA\GameInstance.cpp" />
+    <ClCompile Include="UMBRA\Levels\Level.cpp" />
+    <ClCompile Include="UMBRA\Levels\LevelManager.cpp" />
+    <ClCompile Include="UMBRA\Screen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UMBRA\Actors\Actor.h" />
+    <ClInclude Include="UMBRA\Actors\ActorTransform.h" />
+    <ClInclude Include="UMBRA\Actors\ActorWorld.h" />
+    <ClInclude Include="UMBRA\Application.h" />
+    <ClInclude Include="UMBRA\GameInstance.h" />
+    <ClInclude Include="UMBRA\Levels\Level.h" />
+    <ClInclude Include="UMBRA\Levels\LevelManager.h" />
+    <ClInclude Include="UMBRA\Screen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

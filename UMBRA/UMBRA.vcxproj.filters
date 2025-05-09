@@ -1,22 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="UMBRA">
+      <UniqueIdentifier>{27ff0bae-aa07-486b-a665-7f91b87f0e66}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
+    <Filter Include="UMBRA\Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
+    <Filter Include="UMBRA\Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UMBRA\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>UMBRA\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UMBRA\Application.cpp">
+      <Filter>UMBRA\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UMBRA\GameInstance.cpp">
+      <Filter>UMBRA\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UMBRA\Screen.cpp">
+      <Filter>UMBRA\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UMBRA\Actors\Actor.cpp">
+      <Filter>UMBRA\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UMBRA\Actors\ActorTransform.cpp">
+      <Filter>UMBRA\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UMBRA\Actors\ActorWorld.cpp">
+      <Filter>UMBRA\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UMBRA\Levels\Level.cpp">
+      <Filter>UMBRA\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UMBRA\Levels\LevelManager.cpp">
+      <Filter>UMBRA\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UMBRA\Application.h">
+      <Filter>UMBRA\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UMBRA\GameInstance.h">
+      <Filter>UMBRA\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UMBRA\Screen.h">
+      <Filter>UMBRA\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UMBRA\Actors\Actor.h">
+      <Filter>UMBRA\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UMBRA\Actors\ActorTransform.h">
+      <Filter>UMBRA\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UMBRA\Actors\ActorWorld.h">
+      <Filter>UMBRA\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UMBRA\Levels\Level.h">
+      <Filter>UMBRA\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UMBRA\Levels\LevelManager.h">
+      <Filter>UMBRA\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
